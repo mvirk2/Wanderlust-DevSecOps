@@ -32,7 +32,7 @@ pipeline {
         stage('Git: Code Checkout') {
             steps {
                 script{
-                    code_checkout("https://github.com/mvirk2/DevSecops.git","main")
+                    code_checkout("https://github.com/mvirk2/Wanderlust-DevSecOps.git","main")
                 }
             }
         }
